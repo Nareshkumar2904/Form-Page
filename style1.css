@@ -1,0 +1,127 @@
+h2 {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+#path{
+    background-image:url(img.jpg);
+    
+}
+
+.register_form {
+    margin-left: 30%;
+    margin-top: 4%;
+    width: 40%;
+    border: 1px solid grey;
+    background-color: rgb(236, 222, 222);
+    border-radius: 5px;
+}
+
+.container_input {
+    display: flex;
+    width: 95%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    width: 50px;
+    padding: 12px;
+    color: black;
+    text-align: center;
+    background: none;
+    padding-left: 5%;
+}
+
+.user_form {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+.button_group {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    border: 1px solid grey;
+    background-color: rgb(236, 222, 222);
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+th,td {
+    padding: 3px;
+    border: 1px solid #837e7e
+}
+
+.error-msg {
+    margin-left: 12%;
+    color: #ec1616;
+}
+
+.register {
+    background-image: url(image.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    ;
+}
+
+.form_box {
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    margin: 20% auto;
+    background:transparent;
+    padding: 5px;
+    border-radius: 60px;
+    left: 180px;
+}
+
+.button_form {
+    width: 200px;
+    margin: 40px auto;
+    position: relative;
+    box-shadow: 0 0 50px 2px;
+    border-radius: 30px;
+}
+
+#btn {
+    top: 0;
+    left: 30%;
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    border-radius: 30px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+
+.button_box {
+    padding: 10px 65px;
+    cursor: pointer;
+    border:0;
+    position: relative;
+    margin-top: 5%;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.register_button {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+#detail{
+    background-color: #f7efef;
+}

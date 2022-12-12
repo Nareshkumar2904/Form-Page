@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+
+</head>
+
+<body id="path">
+
+    <div class="register_form">
+        <h2>Registration Form</h2>
+        <br>
+        <div class="container_input">
+            <i class="fa-solid fa-user icon"></i>
+            <input type="text" autocomplete="off" class="user_form" id="firstname" placeholder="First Name">
+        </div>
+        <div class="container_input">
+            <i class="fa-solid fa-user icon"></i>
+            <input type="text" autocomplete="off" class="user_form" id="lastname" placeholder="Last Name">
+        </div>
+        <div class="container_input">
+            <i class="fa-solid fa-envelope icon"></i>
+            <input type="email" pattern="/^[a-zA-Z0-9.!#$%&*_+`{|}~-]+[a-zA-Z0-9]" autocomplete="off" class="user_form" id="email" placeholder="Email">
+        </div>
+        <span class="error-msg" id="emailId"></span>
+
+        <div class="container_input">
+            <i class="fa-sharp fa-solid fa-building icon"></i>
+            <input type="text" autocomplete="off" class="user_form" id="company" placeholder="Company">
+        </div>
+        <div class="container_input">
+            <i class="fa-solid fa-location-dot icon"></i>
+            <input type="text" autocomplete="off" class="user_form" id="address1" placeholder="Address Line 1">
+        </div>
+        <div class="container_input">
+            <i class="fa-solid fa-location-dot icon"></i>
+            <input type="text" autocomplete="off" class="user_form" id="address2" placeholder="Address Line 2">
+        </div>
+        <div class="container_input">
+            <i class="fa-solid fa-location-dot icon"></i>
+            <input type="text" autocomplete="off" class="user_form" id="state" placeholder="State">
+        </div>
+        <div class="container_input">
+            <i class="fa-solid fa-location-dot icon"></i>
+            <input type="text" autocomplete="off" class="user_form" id="country" placeholder="Country">
+        </div>
+        <div class="container_input">
+            <i class="fa-sharp fa-solid fa-envelope-open icon"></i>
+            <input type="number" maxlength="6" class="user_form" id="zip" placeholder="Zip / Postal code">
+        </div>
+        <div class="container_input">
+            <i class="fa-solid fa-phone icon"></i>
+            <input type="tel" autocomplete="off" class="user_form" id="phone" maxlength="10" placeholder="Phone">
+        </div>
+        <span class="error-msg" id="phoneNo"></span>
+
+        <div class="button_group">
+            <button class="btn register_button" onclick="validate()">Submit</button>
+            <button class="btn register_button" onclick="getData()"><a href="./UserDetails.html">View Table</a></button>
+            <button type="button" class="register_button">
+                <a href="./Homepage.html">Home</a>
+            </button>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="details.js"></script>
+
+
+</body>
+
+</html>
